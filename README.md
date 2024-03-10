@@ -104,6 +104,10 @@ into the postgres container
         public | widgets_id_seq                   | sequence | postgres
         (39 rows)
 
+
+        postgres=# \q
+        / # exit
+
 step - 2
 <p align="center">
     <img src="./gambar-petunjuk/ss_step_2.png" alt="ss_step" style="display: block; margin: 0 auto;">
