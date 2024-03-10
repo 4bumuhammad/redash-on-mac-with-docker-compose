@@ -13,6 +13,7 @@ Prerequisites: `docker-compose`
 
 ### overview during the development process :
 
+step - 1
 <p align="center">
     <img src="./gambar-petunjuk/ss_step_1.png" alt="ss_step" style="display: block; margin: 0 auto;">
 </p>
@@ -101,6 +102,7 @@ Prerequisites: `docker-compose`
         public | widgets_id_seq                   | sequence | postgres
         (39 rows)
 
+step - 2
 <p align="center">
     <img src="./gambar-petunjuk/ss_step_2.png" alt="ss_step" style="display: block; margin: 0 auto;">
 </p>
