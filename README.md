@@ -107,8 +107,61 @@ step - 2
     <img src="./gambar-petunjuk/ss_step_2.png" alt="ss_step" style="display: block; margin: 0 auto;">
 </p>
 
+    ❯ docker images
+
+        REPOSITORY      TAG            IMAGE ID       CREATED         SIZE
+        redis           5.0-alpine     8ab49366732f   16 months ago   22.6MB
+        postgres        9.6-alpine     a368e0e3b16f   2 years ago     53.1MB
+        redash/nginx    latest         2a6299d40898   3 years ago     134MB
+        redash/redash   8.0.0.b32245   1b48a51810b5   4 years ago     1.31GB
 
 
+
+    ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
+
+        CONTAINER ID   IMAGE                        STATUS         NAMES                                                  PORTS
+        50194c1b3264   redash/nginx:latest          Up 4 minutes   redash-on-mac-with-docker-compose-nginx-1              443/tcp, 0.0.0.0:8000->80/tcp
+        560a336cf1ae   redash/redash:8.0.0.b32245   Up 4 minutes   redash-on-mac-with-docker-compose-scheduled_worker-1   5000/tcp
+        63bcaa664b8c   redash/redash:8.0.0.b32245   Up 4 minutes   redash-on-mac-with-docker-compose-server-1             0.0.0.0:5000->5000/tcp
+        47ab15c89890   redash/redash:8.0.0.b32245   Up 4 minutes   redash-on-mac-with-docker-compose-adhoc_worker-1       5000/tcp
+        4a89f691b1c5   redash/redash:8.0.0.b32245   Up 4 minutes   redash-on-mac-with-docker-compose-scheduler-1          5000/tcp
+        a34f6c5c39b5   redis:5.0-alpine             Up 4 minutes   redash-on-mac-with-docker-compose-redis-1              6379/tcp
+        c903fb2a4eeb   postgres:9.6-alpine          Up 4 minutes   redash-on-mac-with-docker-compose-postgres-1           5432/tcp
+
+
+
+    ❯ tree -L 2 -I 'gambar-petunjuk|README.md'
+
+            ├── Makefile
+            ├── docker-compose.yml
+            ├── env
+            └── postgres-data
+                ├── PG_VERSION
+                ├── base
+                ├── global
+                ├── pg_clog
+                ├── pg_commit_ts
+                ├── pg_dynshmem
+                ├── pg_hba.conf
+                ├── pg_ident.conf
+                ├── pg_logical
+                ├── pg_multixact
+                ├── pg_notify
+                ├── pg_replslot
+                ├── pg_serial
+                ├── pg_snapshots
+                ├── pg_stat
+                ├── pg_stat_tmp
+                ├── pg_subtrans
+                ├── pg_tblspc
+                ├── pg_twophase
+                ├── pg_xlog
+                ├── postgresql.auto.conf
+                ├── postgresql.conf
+                ├── postmaster.opts
+                └── postmaster.pid
+
+### &#x1F525; Result :
 
 ### &#x1FAA7; Notes : 
 
