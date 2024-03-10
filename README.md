@@ -129,6 +129,7 @@ step - 2
         c903fb2a4eeb   postgres:9.6-alpine          Up 4 minutes   redash-on-mac-with-docker-compose-postgres-1           5432/tcp
 
 
+file structure :
 
     ❯ tree -L 2 -I 'gambar-petunjuk|README.md'
 
