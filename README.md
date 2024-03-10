@@ -52,6 +52,7 @@ Prerequisites: `docker-compose`
                 |          |          |            |            | postgres=CTc/postgres
         (3 rows)
 
+
         postgres=# \c postgres 
         You are now connected to database "postgres" as user "postgres".
 
