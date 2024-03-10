@@ -4,7 +4,7 @@ Running Redash locally on MacOS.
 
 Prerequisites: `docker-compose`
 
-### Steps :
+### &#x1FAB4; Steps :
 
 - `0.` -  clone the repo and cd into the dir
 - `1.` -  `make setup` - one time setup (first time only)
@@ -24,7 +24,7 @@ Prerequisites: `docker-compose`
         postgres        9.6-alpine     a368e0e3b16f   2 years ago     53.1MB
         redash/redash   8.0.0.b32245   1b48a51810b5   4 years ago     1.31GB
 
-### Notes : 
+### &#x1FAA7; Notes : 
 
     ❯ docker --version
 
