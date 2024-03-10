@@ -33,6 +33,8 @@ step - 1
         d52b9f5cec04   redis:5.0-alpine      "docker-entrypoint.s…"   8 minutes ago   Up 8 minutes   6379/tcp   redash-on-mac-with-docker-compose-redis-1
 
 
+into the postgres container
+
     ❯ docker exec -it redash-on-mac-with-docker-compose-postgres-1 /bin/sh
 
         / # psql --version
@@ -43,14 +45,14 @@ step - 1
         Type "help" for help.
 
         postgres=# \l
-                                        List of databases
-        Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges   
+                                         List of databases
+           Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges   
         -----------+----------+----------+------------+------------+-----------------------
-        postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
-        template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
-                |          |          |            |            | postgres=CTc/postgres
-        template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
-                |          |          |            |            | postgres=CTc/postgres
+         postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
+         template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+                   |          |          |            |            | postgres=CTc/postgres
+         template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+                   |          |          |            |            | postgres=CTc/postgres
         (3 rows)
 
 
