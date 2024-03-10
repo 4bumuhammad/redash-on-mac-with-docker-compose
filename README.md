@@ -195,6 +195,20 @@ file structure :
 
 
 
+step - 3
+
+    ❯ make stop
+
+        docker-compose stop
+        [+] Running 7/7
+        ⠿ Container redash-on-mac-with-docker-compose-adhoc_worker-1      Stopped                                3s
+        ⠿ Container redash-on-mac-with-docker-compose-scheduler-1         Stopped                                3s
+        ⠿ Container redash-on-mac-with-docker-compose-scheduled_worker-1  Stopped                                3s
+        ⠿ Container redash-on-mac-with-docker-compose-nginx-1             Stopped                                2s
+        ⠿ Container redash-on-mac-with-docker-compose-server-1            Stopped                                9s
+        ⠿ Container redash-on-mac-with-docker-compose-postgres-1          Stopped                                2s
+        ⠿ Container redash-on-mac-with-docker-compose-redis-1             Stopped
+
 
 
 ---
