@@ -161,6 +161,8 @@ step - 2
                 ├── postmaster.opts
                 └── postmaster.pid
 
+---
+
 ### &#x1F525; Result :
 
 <p align="center">
@@ -182,6 +184,13 @@ step - 2
 <p align="center">
     <img src="./gambar-petunjuk/ss_redash_005.png" alt="ss_redash_005" style="display: block; margin: 0 auto;">
 </p>
+
+
+
+
+
+
+---
 
 ### &#x1FAA7; Notes : 
 
