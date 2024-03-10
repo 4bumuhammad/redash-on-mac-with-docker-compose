@@ -210,6 +210,16 @@ step - 3
         ⠿ Container redash-on-mac-with-docker-compose-redis-1             Stopped
 
 
+    ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
+
+        CONTAINER ID   IMAGE                        STATUS                     NAMES                                                  PORTS
+        50194c1b3264   redash/nginx:latest          Exited (0) 2 minutes ago   redash-on-mac-with-docker-compose-nginx-1              
+        560a336cf1ae   redash/redash:8.0.0.b32245   Exited (0) 2 minutes ago   redash-on-mac-with-docker-compose-scheduled_worker-1   
+        63bcaa664b8c   redash/redash:8.0.0.b32245   Exited (0) 2 minutes ago   redash-on-mac-with-docker-compose-server-1             
+        47ab15c89890   redash/redash:8.0.0.b32245   Exited (0) 2 minutes ago   redash-on-mac-with-docker-compose-adhoc_worker-1       
+        4a89f691b1c5   redash/redash:8.0.0.b32245   Exited (0) 2 minutes ago   redash-on-mac-with-docker-compose-scheduler-1          
+        a34f6c5c39b5   redis:5.0-alpine             Exited (0) 2 minutes ago   redash-on-mac-with-docker-compose-redis-1              
+        c903fb2a4eeb   postgres:9.6-alpine          Exited (0) 2 minutes ago   redash-on-mac-with-docker-compose-postgres-1  
 
 ---
 
