@@ -163,6 +163,26 @@ step - 2
 
 ### &#x1F525; Result :
 
+<p align="center">
+    <img src="./gambar-petunjuk/ss_redash_001.png" alt="ss_redash_001" style="display: block; margin: 0 auto;">
+</p>
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_redash_002.png" alt="ss_redash_002" style="display: block; margin: 0 auto;">
+</p>
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_redash_003.png" alt="ss_redash_003" style="display: block; margin: 0 auto;">
+</p>
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_redash_004.png" alt="ss_redash_004" style="display: block; margin: 0 auto;">
+</p>
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_redash_005.png" alt="ss_redash_005" style="display: block; margin: 0 auto;">
+</p>
+
 ### &#x1FAA7; Notes : 
 
     ❯ docker --version
