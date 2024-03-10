@@ -101,6 +101,13 @@ Prerequisites: `docker-compose`
         public | widgets_id_seq                   | sequence | postgres
         (39 rows)
 
+<p align="center">
+    <img src="./gambar-petunjuk/ss_step_2.png" alt="ss_step" style="display: block; margin: 0 auto;">
+</p>
+
+
+
+
 ### &#x1FAA7; Notes : 
 
     ❯ docker --version
