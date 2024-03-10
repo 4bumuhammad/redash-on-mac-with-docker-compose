@@ -170,7 +170,7 @@ step - 2
 </p>
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_redash_002.png" alt="ss_redash_002" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_redash_002.png" alt="ss_redash_002-1" style="display: block; margin: 0 auto;">
 </p>
 
 <p align="center">
