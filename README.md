@@ -1,4 +1,4 @@
-# Redash on Mac with docker-compose
+# &#x1F6A9; Redash on Mac with docker-compose
 
 Running Redash locally on MacOS.
 
