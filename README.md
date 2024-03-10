@@ -24,6 +24,13 @@ Prerequisites: `docker-compose`
         postgres        9.6-alpine     a368e0e3b16f   2 years ago     53.1MB
         redash/redash   8.0.0.b32245   1b48a51810b5   4 years ago     1.31GB
 
+
+    ❯ docker ps -a
+
+        CONTAINER ID   IMAGE                 COMMAND                  CREATED         STATUS         PORTS      NAMES
+        a5581f81ddff   postgres:9.6-alpine   "docker-entrypoint.s…"   8 minutes ago   Up 8 minutes   5432/tcp   redash-on-mac-with-docker-compose-postgres-1
+        d52b9f5cec04   redis:5.0-alpine      "docker-entrypoint.s…"   8 minutes ago   Up 8 minutes   6379/tcp   redash-on-mac-with-docker-compose-redis-1
+
 ### &#x1FAA7; Notes : 
 
     ❯ docker --version
